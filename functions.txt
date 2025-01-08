@@ -1,0 +1,148 @@
+Ideias de funções para o projeto
+
+1. Controle de Dispositivos Inteligentes (IoT)
+Função: Integrar o assistente com dispositivos IoT, como lâmpadas inteligentes, termostatos, câmeras de segurança e outros.
+
+Exemplo de Comando: "Acenda a luz da sala", "Ajuste a temperatura para 22°C".
+
+ecnologias: MQTT, Home Assistant, Google Home API, ou integração com outras plataformas IoT.
+
+2. Reprodução de Música *Instalado*
+Função: Permitir que o assistente reproduza música ou podcasts em plataformas como Spotify, YouTube ou Apple Music.
+
+Exemplo de Comando: "Tocar música relaxante no Spotify", "Toque o podcast 'Tecnologia Agora'".
+
+Tecnologias: Spotify API, YouTube API, Python spotipy, etc.
+
+3. Lembretes e Alarmes *instalado*
+Função: Permitir que o usuário crie alarmes, lembretes e notificações.
+
+Exemplo de Comando: "Me lembre de comprar leite às 18h", "Alarme para acordar às 7h".
+
+Tecnologias: Agendadores de tarefas como schedule ou APScheduler, e integração com notificações locais.
+
+4. Controle de Tarefas (To-Do Lists) *Em processo*
+Função: Permitir que o usuário crie, edite e exclua tarefas de uma lista de afazeres.
+
+Exemplo de Comando: "Adicionar 'comprar frutas' à minha lista de tarefas", "Quais são minhas tarefas para hoje?".
+
+Tecnologias: Banco de dados simples (SQLite, JSON) ou integração com serviços como Google Tasks ou Todoist API.
+
+5. Busca na Web *Instalado*
+Função: Permitir que o assistente faça buscas rápidas na web e responda a perguntas.
+
+Exemplo de Comando: "Qual é a capital da França?", "Qual é o clima em São Paulo?".
+
+Tecnologias: APIs como Google Search, DuckDuckGo, Wikipedia API.
+
+6. Previsão do Tempo *Finalizado*
+Função: Obter informações meteorológicas e apresentar previsões do tempo para o usuário.
+
+Exemplo de Comando: "Qual é a previsão do tempo para hoje?", "Vai chover amanhã?".
+
+Tecnologias: APIs como OpenWeatherMap, Weatherstack, ou Dark Sky (se disponível).
+
+7. Tradução e Idiomas
+Função: Tradução de textos ou fala entre diferentes idiomas.
+
+Exemplo de Comando: "Traduza 'Bom dia' para inglês", "Como se diz 'obrigado' em francês?".
+
+Tecnologias: Google Translate API, Microsoft Translator.
+
+8. Anotações de Voz
+Função: Permitir que o usuário grave e armazene notas de voz ou mensagens curtas.
+
+Exemplo de Comando: "Gravar nota: 'Ligar para o João'", "Ouvir minha última nota".
+
+Tecnologias: Reconhecimento de voz e transcrição, armazenamento em banco de dados ou arquivo de áudio.
+
+9. Informações de Trânsito e Rotas
+Função: Obter informações sobre o tráfego em tempo real e sugerir rotas.
+
+Exemplo de Comando: "Qual é o trânsito para o meu trabalho?", "Qual a melhor rota para o shopping agora?".
+
+Tecnologias: Google Maps API, OpenStreetMap, Mapbox.
+
+10. Controle de Câmeras de Segurança
+Função: Integrar com câmeras de segurança e permitir o acesso a imagens ao vivo.
+
+Exemplo de Comando: "Mostrar câmera da sala de estar", "Ver câmeras externas".
+
+Tecnologias: RTSP, integração com câmeras IP, plataformas como Nest ou Arlo.
+
+11. Informações de Notícias
+Função: Obter as últimas notícias e tendências de fontes confiáveis.
+
+Exemplo de Comando: "Quais são as últimas notícias?", "Me fale sobre tecnologia".
+
+Tecnologias: APIs de notícias, como NewsAPI, ou integração com fontes como BBC, CNN, ou Reuters.
+
+12. Contagem de Objetos (Reconhecimento de Imagens)
+Função: Usar a câmera para identificar e contar objetos no ambiente, como livros ou frutas.
+
+Exemplo de Comando: "Quantos livros há na prateleira?", "Quantas maçãs estão na mesa?".
+
+Tecnologias: Modelos de visão computacional (TensorFlow, OpenCV), ou APIs como Google Vision.
+
+13. Jogos e Entretenimento
+Função: Adicionar jogos interativos como quiz, trivia, ou jogos de palavras.
+
+Exemplo de Comando: "Vamos jogar um jogo de perguntas e respostas", "Me conte uma piada".
+
+Tecnologias: Desenvolvimento de pequenos jogos interativos com lógica de voz.
+
+14. Controle de Temperatura e Ambiente
+Função: Controlar a temperatura ambiente, como acionar o ar-condicionado ou aquecedores.
+
+Exemplo de Comando: "Ajuste a temperatura para 20°C", "Ligue o ventilador".
+
+Tecnologias: Integração com APIs de dispositivos de controle de temperatura como Nest ou outras plataformas de automação.
+
+15. Integração com Calendário e Agenda
+Função: Adicionar eventos ao calendário, consultar compromissos e gerenciar agendas.
+
+Exemplo de Comando: "Qual é o meu compromisso para hoje?", "Marcar reunião com Maria para amanhã às 10h".
+
+Tecnologias: Google Calendar API, integração com Outlook ou outros serviços de calendário.
+
+16. Leitura de Livros e Artigos
+Função: Permitir que o assistente leia livros ou artigos de sites em voz alta.
+
+Exemplo de Comando: "Leia o último capítulo do livro que estou lendo", "Leia o artigo 'O Futuro da Inteligência Artificial'".
+
+Tecnologias: Web scraping para extrair textos, integração com arquivos de e-books (EPUB, PDF) e ferramentas de TTS.
+
+17. Controle de Compras Online
+Função: Realizar buscas e até compras em plataformas de e-commerce como Amazon, Mercado Livre, etc.
+
+Exemplo de Comando: "Compre uma capa para celular", "Pesquisar por fones de ouvido sem fio".
+
+Tecnologias: APIs de plataformas de e-commerce, como a Amazon Product Advertising API, Mercado Livre API.
+
+18. Saúde e Exercícios
+Função: Controlar rotinas de exercícios, contar calorias, monitorar a saúde e fornecer dicas.
+
+Exemplo de Comando: "Qual é a minha meta de passos hoje?", "Me lembre de fazer exercícios amanhã às 8h".
+
+Tecnologias: Integração com APIs de saúde como Google Fit, Apple Health, ou aplicativos de exercícios.
+
+19. Processamento de Fala para Ações Contextuais
+Função: Usar o processamento de linguagem natural (PLN) para entender melhor o contexto das solicitações e fornecer respostas mais precisas.
+
+Exemplo de Comando: "Me acorde às 7h e ligue a cafeteira", "Qual é a previsão do tempo e qual roupa devo usar?"
+
+Tecnologias: Modelos de PLN como spaCy, Transformers, ou GPT-4.
+
+20. Integração com Redes Sociais
+Função: Permitir que o assistente publique ou recupere postagens de redes sociais.
+
+Exemplo de Comando: "Postar no Twitter 'Bom dia a todos!'", "O que meu amigo João postou no Facebook?"
+
+Tecnologias: APIs do Twitter, Instagram, Facebook, etc.
+
+21. Assistência Pessoal com IA (GPT-4)
+Função: Integrar um modelo de IA como o GPT-4 para ajudar em tarefas mais complexas, como escrever e-mails, resumos ou até criar textos criativos.
+
+Exemplo de Comando: "Escreva um e-mail para o João dizendo que não poderei comparecer à reunião", "Me ajude a escrever um relatório sobre o projeto X".
+
+22. Dizer as horas *Instalado*
